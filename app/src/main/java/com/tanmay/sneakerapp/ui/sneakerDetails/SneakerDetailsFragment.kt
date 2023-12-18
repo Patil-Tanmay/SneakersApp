@@ -2,12 +2,8 @@ package com.tanmay.sneakerapp.ui.sneakerDetails
 
 import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
-import androidx.annotation.RequiresApi
 import androidx.fragment.app.viewModels
 import com.bumptech.glide.Glide
 import com.tanmay.sneakerapp.R
@@ -31,7 +27,7 @@ class SneakerDetailsFragment :
 
     private val sneakerItem by lazy {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            // Your code for TIRAMISU and higher
+            // code for TIRAMISU and higher
             arguments?.getParcelable("SneakerDetail", SneakerItem::class.java)
         } else {
             // Alternative implementation for lower Android versions
@@ -56,7 +52,6 @@ class SneakerDetailsFragment :
                 is Resource.Success -> {
                     binding.addToCartProgressBar.hide()
                     enableDisableAddCart(it.data.isAddedToCart)
-                    Toast.makeText(requireContext(), "Success)", Toast.LENGTH_SHORT)
                 }
 
                 Resource.Loading -> {
@@ -70,7 +65,7 @@ class SneakerDetailsFragment :
                         requireContext(),
                         "Error! Please try again ;)",
                         Toast.LENGTH_SHORT
-                    )
+                    ).show()
                     binding.addToCartProgressBar.hide()
                     enableDisableAddCart(sneakerItem?.isAddedToCart)
                 }

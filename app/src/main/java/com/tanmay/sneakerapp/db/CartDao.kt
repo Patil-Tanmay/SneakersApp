@@ -23,7 +23,7 @@ interface CartDao {
     suspend fun deleteCartTable()
 
     // Find a list of elements where columnName contains a specific part of the given string
-    @Query("SELECT * FROM cart WHERE name LIKE :searchString")
+    @Query("SELECT * FROM cart WHERE name LIKE '%' || :searchString || '%'")
     suspend fun getSearchedSneakerList(searchString: String): List<SneakerItem>
 
 

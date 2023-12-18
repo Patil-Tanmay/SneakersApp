@@ -1,6 +1,5 @@
 package com.tanmay.sneakerapp.utils
 
-import android.app.Activity
 import android.content.Context
 import android.view.View
 import android.view.inputmethod.InputMethod
@@ -96,18 +95,6 @@ fun View.hide() {
 
 fun View.show() {
     this.visibility = View.VISIBLE
-}
-
-fun View.inVisible() {
-    this.visibility = View.INVISIBLE
-}
-
-fun View.disable() {
-    this.isEnabled = false
-}
-
-fun View.enable() {
-    this.isEnabled = true
 }
 
 fun Fragment.hideKeyboard() {

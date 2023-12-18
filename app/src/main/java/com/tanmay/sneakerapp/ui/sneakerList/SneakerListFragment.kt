@@ -1,12 +1,8 @@
 package com.tanmay.sneakerapp.ui.sneakerList
 
 import android.os.Bundle
-import android.util.Log
 import android.view.KeyEvent
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.fragment.app.commit
 import androidx.fragment.app.viewModels
@@ -83,6 +79,7 @@ class SneakerListFragment :
             }
 
             btnRemvText.setOnClickListener {
+                binding.searchBar.setText("")
                 hideKeyboard()
                 hideSearchBar(true)
                 viewModel.getSneakersList(null)
@@ -108,38 +105,22 @@ class SneakerListFragment :
 
     private fun setUpObservers() {
 
-        fun hideUi(){
-            binding.apply {
-//                btnRemvText.hide()
-//                searchBar.hide()
-                recView.hide()
-            }
-        }
-        fun showUi(){
-            binding.apply {
-//                btnRemvText.show()
-//                searchBar.show()
-                recView.show()
-            }
-        }
-
         viewModel.sneakerList.collectItems(viewLifecycleOwner) {
             when (it) {
                 is Resource.Success -> {
-                    showUi()
+                    binding.recView.show()
                     binding.progressLay.hide()
                     binding.errorText.hide()
                     sneakerListAdapter.submitList(it.data)
-                    Log.d("TAGG", "setUpObservers: ${it.data}")
-                    sneakerListAdapter.notifyDataSetChanged()
                 }
                 Resource.Loading -> {
-                    hideUi()
+                    binding.recView.hide()
                     binding.progressLay.show()
                     binding.errorText.hide()
                 }
                 is Resource.Error -> {
-                    hideUi()
+                    binding.errorText.text = it.message
+                    binding.recView.hide()
                     binding.progressLay.hide()
                     binding.errorText.show()
                 }

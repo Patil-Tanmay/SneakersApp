@@ -36,18 +36,4 @@ class SneakerDetailsViewModel @Inject constructor(
         }
     }
 
-//    fun doesItemExistInCart(sneakerItem: SneakerItem) {
-//        viewModelScope.launch {
-//            try {
-//                _addOrRemoveSneakerToCart.send(Resource.Loading)
-//                val addToCart
-//                _addOrRemoveSneakerToCart.send(Resource.Success(sneakerItem.copy(isAddedToCart = isAddToCart)))
-//
-//            } catch (e: Exception) {
-//                _addOrRemoveSneakerToCart.send(Resource.Error("Unable to Add to cart! \n ${e.localizedMessage}"))
-//            }
-//        }
-//    }
-
-
 }

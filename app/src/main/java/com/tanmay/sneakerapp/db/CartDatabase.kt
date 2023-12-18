@@ -2,7 +2,6 @@ package com.tanmay.sneakerapp.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverter
 import androidx.room.TypeConverters
 import com.tanmay.sneakerapp.data.Converters
 import com.tanmay.sneakerapp.data.SneakerItem
