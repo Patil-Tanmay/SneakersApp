@@ -41,64 +41,116 @@
     "id": "4",
     "brand": "Nike",
     "media": {
-      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png",
-      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png"
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cef814b-265a-4279-8e0a-959c0c736ee9/terminator-low-shoes-8sqr67.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cef814b-265a-4279-8e0a-959c0c736ee9/terminator-low-shoes-8sqr67.png"
     },
-    "releaseDate": "2017-12-25",
-    "retailPrice": 130 ,
-    "name": "Nike Zoom Vomero 5 Premium",
-    "title": "Nike Zoom Vomero 5 Premium"
+    "releaseDate": "2015-10-25",
+    "retailPrice": 150 ,
+    "name": "Nike Terminator Low Premium",
+    "title": "Nike Terminator Low Premium"
   },
 
   {
     "id": "5",
     "brand": "Nike",
     "media": {
-      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png",
-      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png"
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf6f9523-08b8-4f9a-9518-64640fb7ee91/air-huarache-runner-shoes-6gNJ0g.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf6f9523-08b8-4f9a-9518-64640fb7ee91/air-huarache-runner-shoes-6gNJ0g.png"
     },
-    "releaseDate": "2017-12-25",
-    "retailPrice": 130 ,
-    "name": "Nike Zoom Vomero 5 Premium",
-    "title": "Nike Zoom Vomero 5 Premium"
+    "releaseDate": "2020-2-15",
+    "retailPrice": 90 ,
+    "name": "Nike Air Huarache Runner",
+    "title": "Nike Air Huarache Runner"
   },
 
   {
     "id": "6",
     "brand": "Nike",
     "media": {
-      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png",
-      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png"
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d706b6dd-32a7-4ed9-81c9-c0808624807c/dunk-low-retro-shoes-bCzchX.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d706b6dd-32a7-4ed9-81c9-c0808624807c/dunk-low-retro-shoes-bCzchX.png"
     },
-    "releaseDate": "2017-12-25",
-    "retailPrice": 130 ,
-    "name": "Nike Zoom Vomero 5 Premium",
-    "title": "Nike Zoom Vomero 5 Premium"
+    "releaseDate": "2010-10-2",
+    "retailPrice": 290 ,
+    "name": "Nike Dunk Low Retro",
+    "title": "Nike Dunk Low Retro"
   },
 
   {
     "id": "7",
     "brand": "Nike",
     "media": {
-      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png",
-      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png"
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/xaj8jyvjkquxeefdbrkj/killshot-2-leather-shoe-DqWZ4j.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/xaj8jyvjkquxeefdbrkj/killshot-2-leather-shoe-DqWZ4j.png"
     },
-    "releaseDate": "2017-12-25",
-    "retailPrice": 130 ,
-    "name": "Nike Zoom Vomero 5 Premium",
-    "title": "Nike Zoom Vomero 5 Premium"
+    "releaseDate": "2019-10-5",
+    "retailPrice": 100 ,
+    "name": "Nike Killshot 2 Leather",
+    "title": "Nike Killshot 2 Leather"
   },
 
   {
     "id": "8",
     "brand": "Nike",
     "media": {
-      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png",
-      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d7112d5a-cfc0-4a53-8d9e-40ce8274324d/zoom-vomero-5-shoes-0MrckK.png"
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1f53b04c-18dc-48b7-a4db-f402c0d84d3c/air-force-1-07-shoes-PhJwrD.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1f53b04c-18dc-48b7-a4db-f402c0d84d3c/air-force-1-07-shoes-PhJwrD.png"
     },
-    "releaseDate": "2017-12-25",
-    "retailPrice": 130 ,
-    "name": "Nike Zoom Vomero 5 Premium",
-    "title": "Nike Zoom Vomero 5 Premium"
+    "releaseDate": "2013-10-10",
+    "retailPrice": 145 ,
+    "name": "Nike Air Force 1 '07",
+    "title": "Nike Air Force 1 '07"
+  },
+
+  {
+    "id": "9",
+    "brand": "Nike",
+    "media": {
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da52b99a-87e6-4887-a080-fc53942b5c18/air-jordan-11-retro-low-ie-shoes-30kr7w.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da52b99a-87e6-4887-a080-fc53942b5c18/air-jordan-11-retro-low-ie-shoes-30kr7w.png"
+    },
+    "releaseDate": "2012-9-1",
+    "retailPrice": 135 ,
+    "name": "Air Jordan 11 Retro Low IE",
+    "title": "Air Jordan 11 Retro Low IE"
+  },
+
+  {
+    "id": "10",
+    "brand": "Nike",
+    "media": {
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8cd2fd7c-f969-44ff-bc75-3c32d865e614/air-humara-shoes-Hs4Qsh.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8cd2fd7c-f969-44ff-bc75-3c32d865e614/air-humara-shoes-Hs4Qsh.png"
+    },
+    "releaseDate": "2011-1-10",
+    "retailPrice": 180 ,
+    "name": "Nike Air Humara",
+    "title": "Nike Air Humara"
+  },
+
+  {
+    "id": "11",
+    "brand": "Nike",
+    "media": {
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23fd664e-2962-4ea1-8389-cf98ac2dd2fc/air-max-90-shoes-hkwJRC.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23fd664e-2962-4ea1-8389-cf98ac2dd2fc/air-max-90-shoes-hkwJRC.png"
+    },
+    "releaseDate": "2015-09-1",
+    "retailPrice": 170 ,
+    "name": "Nike Air Max 90",
+    "title": "Nike Air Max 90"
+  },
+
+  {
+    "id": "12",
+    "brand": "Nike",
+    "media": {
+      "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d9968d11-0ae0-45eb-9139-20574892fcc4/air-trainer-1-shoes-ZLtGj0.png",
+      "thumbUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d9968d11-0ae0-45eb-9139-20574892fcc4/air-trainer-1-shoes-ZLtGj0.png"
+    },
+    "releaseDate": "2016-07-12",
+    "retailPrice": 145 ,
+    "name": "Nike Air Trainer 1",
+    "title": "Nike Air Trainer 1"
   }
 ]

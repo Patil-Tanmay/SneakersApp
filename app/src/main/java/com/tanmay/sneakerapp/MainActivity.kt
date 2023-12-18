@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.window.OnBackInvokedDispatcher
 import androidx.activity.OnBackPressedCallback
+import androidx.activity.viewModels
 import androidx.core.content.ContextCompat
 import androidx.core.view.AccessibilityDelegateCompat
 import androidx.core.view.ViewCompat
@@ -15,6 +16,7 @@ import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import com.tanmay.sneakerapp.databinding.ActivityMainBinding
+import com.tanmay.sneakerapp.ui.MainViewModel
 import com.tanmay.sneakerapp.ui.sneakerCart.SneakerCartFragment
 import com.tanmay.sneakerapp.ui.sneakerDetails.SneakerDetailsFragment
 import com.tanmay.sneakerapp.ui.sneakerList.SneakerListFragment
@@ -25,6 +27,8 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val binding by viewBinding(ActivityMainBinding::inflate)
+
+    private val viewModel by viewModels<MainViewModel>()
 
     private lateinit var sneakerCartFragment: SneakerCartFragment
     private lateinit var sneakerListFragment: SneakerListFragment
@@ -140,5 +144,10 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .selectFragment(indexToSelect)
             .commit()
+    }
+
+    override fun onDestroy() {
+        viewModel.deleteCartTable()
+        super.onDestroy()
     }
 }

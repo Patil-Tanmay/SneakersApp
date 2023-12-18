@@ -67,5 +67,8 @@ class SneakerRepository @Inject constructor(
         cartDao.updateSneakerInfo(sneakerItem.id, isAddedToCart = true)
     }
 
+    suspend fun deleteCartTable() = withContext(Dispatchers.IO) {
+        cartDao.deleteCartTable()
+    }
 
 }
